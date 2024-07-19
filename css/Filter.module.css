@@ -1,0 +1,28 @@
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter {
+  margin-bottom: 1rem;
+}
+
+.colorsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.color {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.color:hover {
+  transform: scale(1.1);
+  border-color: rgb(202, 200, 200);
+}/*# sourceMappingURL=Filter.module.css.map */

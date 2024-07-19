@@ -1,0 +1,358 @@
+.product {
+  font-family: "Arial, sans-serif";
+  margin: 20px auto;
+  max-width: 500.85px;
+  height: 499px;
+  left: 91px;
+  top: 347px;
+  border: 5px dashed #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+.product h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  text-align: center;
+  transition: color 0.3s;
+}
+.product h2:hover {
+  color: #3395ff;
+}
+.product img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.product p {
+  color: #212529;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.product p.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+}
+.product p.category {
+  font-style: italic;
+  color: #adb3b9;
+  text-align: center;
+}
+.product .product-details {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.product .product-details .detail-item {
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product1 {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  width: 325px;
+  height: 58px;
+  left: 848px;
+  top: 347px;
+  color: rgb(25, 13, 38);
+  font-family: "Hammersmith One";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.productImage {
+  width: 300px;
+  height: 300px;
+  font-size: 100px;
+}
+
+.productText {
+  margin-top: 16px;
+  color: rgb(25, 13, 38);
+  width: 478px;
+  font-family: "Readex Pro";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sarlavha {
+  position: relative;
+  font-family: "Readex Pro";
+  color: rgb(13, 38, 18);
+  width: 700px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  top: -82px;
+}
+
+.yulduz {
+  width: 120px;
+  height: 20px;
+}
+
+.span {
+  display: block;
+  width: 520px;
+  height: 0;
+  border: 2px dashed rgb(106, 105, 105);
+  margin-top: 27px;
+}
+
+.money {
+  margin-top: 15px;
+  color: rgb(25, 13, 38);
+  font-family: "Readex Pro";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text2 {
+  margin-top: 15px;
+  color: rgb(13, 38, 18);
+  font-family: "Readex Pro";
+  width: 456px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.span2 {
+  display: block;
+  width: 520px;
+  height: 0;
+  border: 2px dashed rgb(106, 105, 105);
+  margin-top: 27px;
+}
+
+.title {
+  margin-top: 30px;
+  width: 177px;
+  height: 30px;
+  color: rgb(14, 2, 12);
+  font-family: "Readex Pro";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.aylana {
+  border: 2px solid rgb(13, 38, 19);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: rgb(13, 38, 19);
+}
+
+.aylana2 {
+  border: 2px solid rgb(13, 38, 19);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+}
+
+.Productaylana {
+  display: flex;
+  margin-top: 31px;
+  gap: 30px;
+}
+
+.span3 {
+  display: block;
+  width: 520px;
+  height: 0;
+  border: 2px dashed rgb(106, 105, 105);
+  margin-top: 36px;
+}
+
+.aylana3 {
+  width: 130px;
+  height: 69px;
+  cursor: pointer;
+}
+
+.text3 {
+  width: 157px;
+  height: 44px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.span4 {
+  color: greenyellow;
+}
+
+.Only {
+  margin-top: 30px;
+  display: flex;
+  gap: 60px;
+}
+
+.yurak_like {
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.div_like {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.button {
+  width: 124px;
+  height: 27px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 442px;
+  height: 59px;
+  border-radius: 10px;
+  background: rgb(11, 164, 45);
+  cursor: pointer;
+}
+
+.bus {
+  width: 20px;
+  height: 20px;
+}
+
+.text4 {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  border: 3px dashed rgb(13, 38, 18);
+  padding: 5px 30px 0px 30px;
+  border-radius: 10px;
+  border-bottom: none;
+}
+
+.ptext {
+  margin-top: 20px;
+  width: 118px;
+  height: 23px;
+  color: rgb(13, 38, 18);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ptext2 {
+  color: rgb(13, 38, 18);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
+
+.somka {
+  width: 20px;
+  height: 20px;
+}
+
+.text5 {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  border: 3px dashed rgb(13, 38, 18);
+  padding: 5px 30px 0px 30px;
+  border-radius: 10px;
+}
+
+.ptext3 {
+  margin-top: 20px;
+  color: rgb(13, 38, 18);
+  font-family: Readex Pro;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.ptext4 {
+  color: rgb(13, 38, 18);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
+
+.div4 {
+  margin-top: 52px;
+}
+
+.text6 {
+  display: flex;
+  gap: 49px;
+}
+
+.fontstili {
+  width: 126.55px;
+  height: 114px;
+  font-size: 80px;
+}
+
+.fontimg {
+  padding-top: 390px;
+  margin-right: 399px;
+  display: flex;
+  gap: 41px;
+}/*# sourceMappingURL=Products.module.css.map */

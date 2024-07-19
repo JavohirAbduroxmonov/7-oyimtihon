@@ -1,0 +1,171 @@
+.home-container {
+  padding: 1rem;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.goback {
+  width: 159px;
+height: 23px;
+color: rgb(13, 38, 18);
+font-family: Readex Pro;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.line {
+  width: 100%;
+  display: block;
+}
+
+.carttext {
+  display: flex;
+  max-width: 600px;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.product, .quantity, .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.productsContainerMain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.cartImg {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+.cartHeader{
+    position: relative;
+    bottom: 75px;
+    border-bottom: 50px
+}
+.title{
+    padding-top: 55px;
+}
+
+.productName {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.9rem;
+}
+
+.productprice {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.totalpriceContainer {
+    position: relative;
+    bottom: 75px;
+  flex: 1;
+  padding: 1rem;
+  margin-left: 10rem;
+}
+.totalCart{
+  border-bottom: 3px dashed rgb(25, 13, 38);
+  padding-bottom: 20px
+}
+.total {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.shipping{
+    margin-top: 30px;
+    width: 265px;
+    height: 25px;
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.tax{
+    margin-top: 20px;
+    width: 360px;
+    height: 46px;
+    color: rgb(25, 13, 38);
+    font-family: Readex Pro;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.subtotal{
+    width: 332px;
+height: 23px;
+color: rgb(25, 13, 38);
+font-family: Readex Pro;
+font-size: 18px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+border-bottom: 3px dashed rgb(25, 13, 38);
+}
+.totalprice{
+    margin-top: 34px;
+    font-size: 25px;
+}
+.checkout{
+    margin-top: 60px;
+    width: 396px;
+    padding:  10px;
+height: 54px;
+border-radius: 10px;
+background: greenyellow;
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+.checkouttext{
+    border: none;
+    text-align: center;
+    color: inherit;
+    padding-left: 140px;
+    color: #fff;
+    font-size: 15px;
+}
+.goback{
+    margin-top: 40px;
+}
